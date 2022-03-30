@@ -1,0 +1,71 @@
+<!-- Proyecto Responsive HTML, CSS -->
+<!-- Desarrollado por Michael Pauca Navarro -->
+<!-- Sitio web creado por © Michael Paucas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima - Aplicacion de Informacion del Clima</title>
+    <link rel="shortcut icon" href="assets/imagenes/heart.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="splash">
+        <div class="splash-container">
+            <div class=" fade-in caja-imagen">
+                <img src="assets/imagenes/SkuatLogo.png">
+            </div>
+            <h1 class="fade-in1">Brindando Profesionalismo...!</h1>
+        </div>
+    </div>
+
+    <header class="hero">
+        <div class="hero_container container">
+            <h1 class="hero_title">Información del Clima</h1>
+            <p class="hero_copy">Aqui podras obtener la informacion del Clima en tu ciudad</p>
+            <input type="text" id="input_buscarCiudad" placeholder="Ingrese la Ciudad....">
+            <a onclick="Buscar()" class="hero_cta">Buscar</a>
+        </div>
+    </header>
+
+    <div id="cuerpo_pagina">
+        <div id="contenedor">
+            <div id="caja1">
+                <h1 id="temperatura-valor"></h1>
+                <h1 id="temperatura-descripcion"></h1>
+            </div>
+            <div id="caja2">
+                <h2 id="ubicacion"></h2>
+                <img src="" alt="" id="iconoAnimado" height="128" width="128">
+            </div>
+            <div id="caja3">
+                <h3>Veloc. del Viento</h3>
+                <h1 id="viento-velocidad"></h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_container container">
+            <p class="footer_copyright">
+                Sitio web creado por &copy; Michael Paucas : 
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
+
+<!-- Proyecto Responsive HTML, CSS -->
+<!-- Desarrollado por Michael Pauca Navarro -->
+<!-- Sitio web creado por © Michael Paucas -->
