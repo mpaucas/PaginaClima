@@ -1,11 +1,13 @@
 window.addEventListener("load", ()=>{
     const splash = document.querySelector('.splash');
 
-    setTimeout(()=>{
-        splash.classList.add('display-none');
-    }, 3000);
-
-    IniciarPage('Lima');
+    if(navigator.geolocation){
+        setTimeout(()=>{
+            splash.classList.add('display-none');
+        }, 3000);
+        
+        IniciarPage('Lima');
+    }
 })
 
 function Buscar(){
