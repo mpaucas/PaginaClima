@@ -1,2 +1,0 @@
-# PaginaClima
-# PaginaClima
